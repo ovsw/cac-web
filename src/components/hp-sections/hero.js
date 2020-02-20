@@ -55,14 +55,14 @@ const Hero = () => {
         // my: [3, 4, 4, 3, 5]
         // bg: 'rgba(0,0,0,.32)'
       }}>
-        <img src={BigLogo} alt='Camp Laurelwood Big Logo' />
+        <img src={BigLogo} alt='Canadian Adventure Camp Big Logo' />
         <Styled.h1 sx={{
           textTransform: 'lowercase',
           color: 'white',
           fontWeight: 'normal',
           textShadow: '2px 2px 2px rgba(0,0,0,.5)',
           fontSize: [3, 4],
-          fontFamily: 'heading2',
+          fontFamily: 'heading',
           mb: 0
         }} onClick={() => console.log('click')}>Fun. Friends. Forever.</Styled.h1>
         <p sx={{
@@ -83,8 +83,7 @@ const Hero = () => {
         }}>
           <FaPlay sx={{position: 'relative', top: '2px'}} /> &nbsp; Watch our Video
         </button>
-        <ModalVideo channel='youtube' isOpen={playFullVideo} videoId='gcJfsUztrGE' onClose={() => setPlayFullVideo(!setPlayFullVideo)} />
-
+        <ModalVideo channel='youtube' isOpen={playFullVideo} videoId='Ydh9_nK87c4' onClose={() => setPlayFullVideo(!setPlayFullVideo)} />
       </Container>
     </Box>
   )
