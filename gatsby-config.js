@@ -19,61 +19,45 @@ module.exports = {
             title: 'column 1',
             children: [
               {
-                title: 'Programs',
-                slug: '/programs/',
+                title: 'The CAC Experience',
+                slug: '/the-canadian-adventure-camp-experience/',
+                children: []
+              },
+              {
+                title: 'General Camp Program',
+                slug: '/programs/general-camp-program/',
+                children: []
+              },
+              {
+                title: 'Specialty Programs',
+                slug: '/programs/specialty-summer-camp-programs/',
                 children: [
                   {
-                    title: 'Trial Sessions',
-                    slug: '/programs/trial-sessions/',
+                    title: 'Gymnastics Program',
+                    slug: '/programs/specialty-gymnastics-program/',
                     children: []
                   },
                   {
-                    title: 'Overnight Camp (2nd-9th)',
-                    slug: '/programs/overnight-camp/',
+                    title: 'Trampoline Program',
+                    slug: '/programs/trampoline-specialty-program/',
                     children: []
                   },
                   {
-                    title: 'Day Camp (K-7th)',
-                    slug: '/programs/day-camp/',
+                    title: 'Aerials (Silks & Hoops)',
+                    slug: '/programs/aerials-specialty-program/',
                     children: []
                   },
                   {
-                    title: 'Bonim Travel (10th)',
-                    slug: '/programs/bonim-travel-program/',
-                    children: []
-                  },
-                  {
-                    title: 'SIT Program',
-                    slug: '/programs/sit-program/',
-                    children: []
-                  },
-                  {
-                    title: 'Specialty Camps',
-                    slug: '/programs/specialty-camps/',
+                    title: 'Water-ski & Wake-board',
+                    slug: '/programs/water-ski-and-wake-boarding-specialty-programs/',
                     children: []
                   }
                 ]
               },
               {
-                title: 'Activities',
-                slug: '/activities/',
-                children: [
-                  {
-                    title: 'Trips & Special Events',
-                    slug: '/activities/trips-and-special-events',
-                    children: []
-                  },
-                  {
-                    title: 'Jewish Life',
-                    slug: '/activities/jewish-life/',
-                    children: []
-                  },
-                  {
-                    title: 'A Typical Day',
-                    slug: '/activities/a-typical-day/',
-                    children: []
-                  }
-                ]
+                title: 'Accommodation & Facilities',
+                slug: '/accommodation-and-facilities/',
+                children: []
               }
             ]
           },
@@ -81,13 +65,13 @@ module.exports = {
             title: 'column 2',
             children: [
               {
-                title: 'Food, Health and Safety',
-                slug: '/food-health-and-safety/',
+                title: 'Health & Safety',
+                slug: '/health-and-safety/',
                 children: []
               },
               {
-                title: 'Tours & Events',
-                slug: '/prospective-families-tours-and-events/',
+                title: 'International Campers',
+                slug: '/international-campers/',
                 children: []
               },
               {
@@ -96,23 +80,13 @@ module.exports = {
                 children: []
               },
               {
-                title: 'Dates & Rates - Overnight',
-                slug: '/dates-and-rates-overnight-camp/',
+                title: 'Testimonials',
+                slug: '/testimonials/',
                 children: []
               },
               {
-                title: 'Dates & Rates - Day Camp',
-                slug: '/dates-and-rates-day-camp/',
-                children: []
-              },
-              {
-                title: 'Tuition Assistance',
-                slug: '/tuition-assistance/',
-                children: []
-              },
-              {
-                title: 'Schedule a Tour',
-                slug: '/schedule-a-tour/',
+                title: 'Dates & Rates',
+                slug: '/dates-and-rates/',
                 children: []
               },
               {
@@ -131,34 +105,29 @@ module.exports = {
       },
       {
         title: 'About Laurelwood',
-        slug: '/about/',
+        slug: '/about-us/',
         children: [
           {
             title: 'column 1',
             children: [
               {
-                title: 'The Laurelwood Experience',
-                slug: '/the-laurelwood-experience/',
+                title: 'History and Goal',
+                slug: '/our-summer-camp-history-and-goal/',
                 children: []
               },
               {
-                title: 'Meet our Staff',
-                slug: '/our-staff/',
+                title: 'Great Leadership',
+                slug: '/great-leadership/',
                 children: []
               },
               {
-                title: 'Letter From the Director',
-                slug: 'welcome-letter-from-the-director',
+                title: 'Location',
+                slug: '/private-island-camp-location-ontario/',
                 children: []
               },
               {
-                title: 'Board of Directors',
-                slug: 'board-of-directors',
-                children: []
-              },
-              {
-                title: 'ACA Accreditation',
-                slug: '/aca-accreditation/',
+                title: 'Food & Sample Menu',
+                slug: '/food-and-sample-menu/',
                 children: []
               }
             ]
@@ -167,13 +136,8 @@ module.exports = {
             title: 'column 2',
             children: [
               {
-                title: 'History',
-                slug: '/history/',
-                children: []
-              },
-              {
-                title: 'Location',
-                slug: '/location/',
+                title: 'Memberships & Partnerships',
+                slug: '/memeberships-partnerships/',
                 children: []
               },
               {
@@ -182,13 +146,13 @@ module.exports = {
                 children: []
               },
               {
-                title: 'Alumni Events',
-                slug: '/alumni-events/',
+                title: 'Photo Gallery',
+                slug: '/photo-gallery/',
                 children: []
               },
               {
-                title: 'Camp Newsletter',
-                slug: '/camp-newsletter/',
+                title: 'Videos',
+                slug: '/videos/',
                 children: []
               }
             ]
@@ -203,76 +167,68 @@ module.exports = {
             title: 'column 1',
             children: [
               {
-                title: 'Upcoming Events',
-                slug: '/upcoming-events-current-families/',
+                title: 'What to Bring to Camp',
+                slug: '/what-to-bring-to-camp/',
+                children: []
+              },
+              {
+                title: 'Parent\'s Guide',
+                slug: '/download-parent-guide/',
+                children: []
+              },
+              {
+                title: 'Getting to Camp',
+                slug: '/transportation/',
+                children: [
+                  {
+                    title: 'Travel by Bus',
+                    slug: '/transportation/travel-by-bus/',
+                    children: []
+                  },
+                  {
+                    title: 'Travel by Car',
+                    slug: '/transportation/travel-by-car/',
+                    children: []
+                  },
+                  {
+                    title: 'International Travel',
+                    slug: '/transportation/international-campers/',
+                    children: []
+                  }
+                ]
+              },
+              {
+                title: 'Stay in touch with your camper',
+                slug: '/stay-in-touch-with-your-camper/',
+                children: [
+                  {
+                    title: 'Visitor\'s Days',
+                    slug: '/visitor-days/',
+                    children: []
+                  },
+                  {
+                    title: 'Places to Stay',
+                    slug: '/places-to-stay-when-visiting/',
+                    children: []
+                  }
+                ]
+              },
+              {
+                title: 'Camp Pictures',
+                slug: '/camp-pictures/',
+                children: []
+              },
+              {
+                title: 'Camp Video',
+                slug: '/camp-video/',
                 children: []
               },
               {
                 title: 'Parent Log-in',
                 slug: '/parent-log-in/',
                 children: []
-              },
-              {
-                title: 'Donate',
-                slug: '/donate/',
-                children: []
-              },
-              {
-                title: 'Refer a Friend',
-                slug: '/refer-a-friend/',
-                children: []
-              },
-              {
-                title: 'What\'s New',
-                slug: '/whats-new-on-campus/',
-                children: []
-              },
-              {
-                title: 'Camp Store',
-                slug: '/camp-store/',
-                children: []
-              },
-              {
-                title: 'Amazon Smile',
-                slug: '/amazon-smile/',
-                children: []
               }
-            ]
-          },
-          {
-            title: 'column 2',
-            children: []
-          }
-        ]
-      },
-      {
-        title: 'Retreats & Events',
-        slug: '/private-events-and-retreats/',
-        children: [
-          {
-            title: 'column 1',
-            children: [
-              {
-                title: 'Facilities',
-                slug: '/private-events-and-retreats/facilities/',
-                children: []
-              },
-              {
-                title: 'Photos',
-                slug: '/private-events-and-retreats/photos/',
-                children: []
-              },
 
-              {
-                title: 'Recommended Vendors',
-                slug: '/private-events-and-retreats/recommended-vendors/',
-                children: []
-              },
-              {
-                title: 'Contact us',
-                slug: '/private-events-and-retreats/contact-us/',
-                children: []
-              }
             ]
           },
           {
@@ -282,35 +238,25 @@ module.exports = {
         ]
       },
       {
-        title: 'Donate',
-        slug: '/donate/',
+        title: 'Contact Us',
+        slug: '/contact-us/',
+        children: []
+      },
+      {
+        title: 'NCCP & Adult Camp',
+        slug: '/nccp-courses-and-adult-camp/',
         children: [
           {
             title: 'column 1',
             children: [
               {
-                title: 'Donate Today',
-                slug: '/donate-today/',
+                title: 'Adult Camp',
+                slug: '/adult-summer-camp/',
                 children: []
               },
               {
-                title: 'Send a Kid to Laurelwood',
-                slug: '/send-a-kid-to-laurelwood/',
-                children: []
-              }
-            ]
-          },
-          {
-            title: 'column 2',
-            children: [
-              {
-                title: 'Amazon Wishlist',
-                slug: '/amazon-wishlist/',
-                children: []
-              },
-              {
-                title: 'More ways to support Camp',
-                slug: '/more-ways-to-support-camp/',
+                title: 'N.C.C.P. Courses',
+                slug: '/nccp-courses/',
                 children: []
               }
             ]
@@ -325,18 +271,18 @@ module.exports = {
             title: 'column 1',
             children: [
               {
-                title: 'Current Openings',
-                slug: '/staff/current-openings/',
+                title: 'Available Positions',
+                slug: '/staff/available-positions/',
                 children: []
               },
               {
-                title: 'Staff Testimonials',
-                slug: '/staff/staff-testimonials/',
-                children: []
-              },
-              {
-                title: 'Apply',
+                title: 'Staff Application',
                 slug: '/staff/staff-application/',
+                children: []
+              },
+              {
+                title: 'Community Initiatives',
+                slug: '/staff/community-initiatives/',
                 children: []
               }
             ]
