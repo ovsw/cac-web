@@ -165,31 +165,31 @@ const testimonialsContentTemp = [
   },
   {
     name: 'Henry Brown',
-    text: 'After 9 summers at laurelwood I can say with confidence that it gets better every year. It\'s always such a wonderful mix of new and old faces and bonds that form and grow each summer. Laurelwood has shaped me into who I am today and I\'m forever grateful for the experiences and environment it provided me growing up.'
+    text: 'Truly a magical place that fills me with more happiness than anywhere else in the world!'
   },
   {
     name: 'Isabel Braverman',
-    text: 'Not a day goes by when I don’t think of camp; I am reminded of my home away from home when I hear “Unwritten” on the radio, whenever I wear a white blouse, and whenever I eat a blondie. It is the small traditions that make camp unique. Laurelwood has provided a safe haven for me to pursue my passions with the most supportive staff and campers, and I consider myself incredibly lucky to have not only a summer family, but a forever family, in the 06443.'
+    text: 'Truly a magical place that fills me with more happiness than anywhere else in the world!'
   },
   {
     name: 'Breezie Miller',
-    text: 'Camp Laurelwood has been my home away from home for 13 years, truly as long as I can remember. It has given me my best friends, my happiest memories, and shaped me into the person I am today. Being Junior Girls’ Division Head is an amazing experience unlike anything else, and I feel so lucky to have had the opportunity to connect with so many incredible campers and staff this summer.'
+    text: 'Truly a magical place that fills me with more happiness than anywhere else in the world!'
   },
   {
     name: 'Hilary Rappaport ',
-    text: 'Camp Laurelwood was life changing for me this past summer because I was able to watch my campers grow. I was also able to watch them find their love for camp the way I did when I was their age which is always heartwarming.'
+    text: 'Truly a magical place that fills me with more happiness than anywhere else in the world!'
   },
   {
     name: 'Aaron Cohen',
-    text: 'For almost ten years now, Laurelwood has been my summer home and I don’t doubt for a second it’ll be my summer home for many years to come. Camp is where my strongest friendships were born and where I have grown to be an independent and outgoing leader. I can’t imagine spending my summers anywhere else. Live, love, camp.'
+    text: 'Truly a magical place that fills me with more happiness than anywhere else in the world!'
   },
   {
     name: 'Jess Tyler',
-    text: 'Camp Laurelwood. A place where experiences become memories and friends become family. A place where bunks hold the most important secrets and matching bracelets mean everything. A place where you sing your heart out, where you dance like nobody is watching, where you share stories round campfires and laugh until you cry. Camp is a home away from home. Laurelwood is family.'
+    text: 'Truly a magical place that fills me with more happiness than anywhere else in the world!'
   },
   {
     name: 'Erin Bellucci',
-    text: 'When I’m at camp I’m so busy making friends, doing activities, singing on benches at shabbat, roasting marshmallows, and being a part of the countless other special things we do. When the 7 weeks are over and I have my first moment to reflect on the summer, I realize that all throughout each of those special days I was actually growing as a person and becoming a more genuine, thoughtful version of myself.'
+    text: 'Truly a magical place that fills me with more happiness than anywhere else in the world!'
   }
 ]
 
