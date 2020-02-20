@@ -104,7 +104,7 @@ module.exports = {
         ]
       },
       {
-        title: 'About Laurelwood',
+        title: 'About CAC',
         slug: '/about-us/',
         children: [
           {
@@ -319,6 +319,17 @@ module.exports = {
         token: process.env.SANITY_READ_TOKEN,
         watchMode: true,
         overlayDrafts: true
+      }
+    },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Roboto Slab`,
+          `Work Sans`
+          // `Open Sans:400,400i,700` // you can also specify font weights and styles
+        ],
+        display: 'block'
       }
     }
   ]
