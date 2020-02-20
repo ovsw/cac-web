@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "lrw-web",
+  "name": "cac-web",
   "version": "1.0.0",
   "author": "OVS Websites <ovi@ovswebsites.com>",
   "scripts": {
@@ -60,6 +60,6 @@
     "react-video-cover": "^1.2.2",
     "react-youtube": "^7.9.0",
     "slick-carousel": "^1.8.1",
-    "theme-ui": "^0.2.49",
+    "theme-ui": "^0.2.49"
   }
 }
