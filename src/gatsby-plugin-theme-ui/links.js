@@ -33,7 +33,7 @@ const links = {
       transition: '.3s ease-out .1s',
       textTransform: 'uppercase',
       textDecoration: 'none',
-      fontSize: '26px',
+      fontSize: '16px',
       fontFamily: 'heading',
       fontWeight: 'bold',
       '& span': {
@@ -52,7 +52,7 @@ const links = {
           width: '30px',
           height: '4px',
           borderRadius: '999px',
-          background: '#8a4c2d',
+          background: '#999',
           content: '""',
           position: 'absolute',
           left: '50%',
@@ -173,7 +173,7 @@ const links = {
       }
     },
     footerLinks: {
-      color: 'accent'
+      color: 'light'
     }
   }
 }

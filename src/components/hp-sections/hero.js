@@ -8,7 +8,7 @@ import ModalVideo from 'react-modal-video'
 import {FaPlay} from 'react-icons/fa'
 
 import VideoPoster from '../../images/hero-video-bg.jpg'
-import BigLogo from '../../images/lrw-temp-simplified-logo-vector-bw.png'
+import BigLogo from '../../images/cac-logo-white.png'
 
 import '../../../node_modules/react-modal-video/css/modal-video.min.css'
 
@@ -64,7 +64,7 @@ const Hero = () => {
           fontSize: [3, 4],
           fontFamily: 'heading',
           mb: 0
-        }} onClick={() => console.log('click')}>Fun. Friends. Forever.</Styled.h1>
+        }} onClick={() => console.log('click')}>Tagline. Goes. Here.</Styled.h1>
         <p sx={{
           textShadow: '1px 1px 2px rgba(0,0,0,.5)',
           fontSize: [1, 2],
@@ -74,7 +74,7 @@ const Hero = () => {
           maxWidth: '2xl',
           mx: 'auto'
         }}>
-          Wonderful experiences await your child at Camp Laurelwood, Connecticut's Premier Jewish Co-ed Overnight Camp. </p>
+          Discover a coed overnight summer camp for kids, located on a beautiful private island in the wilderness lakes region of Temagami, Ontario, that provides acclaimed programs to children from around the world! </p>
         <button onClick={() => setPlayFullVideo(true)} sx={{
           variant: 'buttons.3DAccent',
           display: 'inline-block',

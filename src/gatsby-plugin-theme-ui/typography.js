@@ -3,9 +3,8 @@ const typography = {
     // 'sans': '-apple-system, BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"',
     // 'serif': 'Georgia, Cambria, "Times New Roman", Times, serif',
     'mono': 'Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace',
-    'heading': '"Amatic SC", cursive',
-    'heading2': '"skranji", sans-serif',
-    'body': '"Open Sans", sans-serif'
+    'heading': '"Roboto Slab", serif',
+    'body': '"Work Sans", sans-serif'
     // 'monospace': 'Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace'
   },
   text: {

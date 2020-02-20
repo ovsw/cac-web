@@ -49,7 +49,7 @@ const TrialSessionsContent = () => {
         <p> An opportunity for rookie or first time campers to fully immerse themselves in the excitement and wonder of the Laurelwood sleepaway experience.</p>
       </div>
       <div>
-        <Styled.h3>Taste of Laurelwood:</Styled.h3>
+        <Styled.h3>Taste of Canadian Adventure Camp:</Styled.h3>
         <p> Three wonderful days to introduce your camper to Laurelwood and the sleepaway camp experience. Drop off is Thursday at 10 am and pick up is Sunday at 1:00 pm.
         </p>
 

@@ -17,7 +17,6 @@ const PageSidebar = ({section}) => {
       setExpanded(true)
     }
   }
-
   const {siteNav} = useSiteMetadata()
 
   var currentSectionMenuStructure = siteNav.filter(obj => {

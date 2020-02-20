@@ -19,7 +19,7 @@ const TopBar = () => {
         }}>
           <Link to='/dates-and-rates/' sx={{variant: 'links.topBar'}}>Dates &amp; Rates</Link>
           {/* <Link to='/'>Schedule Tour</Link> */}
-          <Link to='/interactive-map/' sx={{variant: 'links.topBar'}}>Interactive Map</Link>
+          {/* <Link to='/interactive-map/' sx={{variant: 'links.topBar'}}>Interactive Map</Link> */}
           <Link to='/request-info/' sx={{variant: 'links.topBar'}} rel='noopener noreferrer' target='_blank'>Request Info</Link>
         </Box>
         <Box sx={{
@@ -29,9 +29,9 @@ const TopBar = () => {
             ml: 2
           }
         }}>
-          <a href='https://laurelwood.campintouch.com/ui/forms/application/camper/App' rel='noopener noreferrer' sx={{variant: 'links.topBar'}}target='_blank'>Enroll Now</a>
-          <Link to='/news/' sx={{variant: 'links.topBar'}}>Camp Blog</Link>
-          <Link to='/donate-now/' sx={{variant: 'links.topBar'}} rel='noopener noreferrer' target='_blank'>Donate Now</Link>
+          <a href='/enroll-now/' rel='noopener noreferrer' sx={{variant: 'links.topBar'}}target='_blank'>Enroll Now</a>
+          <Link to='/blog/' sx={{variant: 'links.topBar'}}>CAC Blog</Link>
+          {/* <Link to='/donate-now/' sx={{variant: 'links.topBar'}} rel='noopener noreferrer' target='_blank'>Donate Now</Link> */}
         </Box>
       </Flex>
     </div>

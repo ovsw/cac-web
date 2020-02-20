@@ -136,32 +136,33 @@ const TestimonialsSection = () => {
     )
   }
   return (
-    <BackgroundImage tag='section' quality='90' fluid={testimonialsBgImage.childImageSharp.fluid}
+    // REPLACE WITH BackgroundImage
+    <div tag='section' quality='90' fluid={testimonialsBgImage.childImageSharp.fluid}
       sx={{
         variant: 'sections.hpSection',
         py: [5, 5, 5, 6],
         pb: [6, 5, 5, 6],
         // background: `url(${SectionBg}) repeat-x bottom left`,
-        backgroundColor: 'transparent',
+        backgroundColor: 'gray.3',
         backgroundPosition: 'bottom center',
         marginBottom: '-3rem',
         position: 'relative',
         zIndex: '2'
       }}>
-      <Styled.h1 as='h2' sx={{textAlign: 'center', color: 'accent'}}>What the Community Says</Styled.h1>
+      <Styled.h1 as='h2' sx={{textAlign: 'center', color: 'gray.7'}}>What families say</Styled.h1>
       <Container sx={{maxWidth: '6xl', px: ['2.8rem', 5, 0]}}>
         <Slider {...slickSettings}>
           {testimonialsContentTemp.map(testimonial => <TestimonialItem {...testimonial} key={testimonial.name} />)}
         </Slider>
       </Container>
-    </BackgroundImage>
+    </div>
   )
 }
 
 const testimonialsContentTemp = [
   {
     name: 'Emily Cooper',
-    text: 'Truly a magical place that fills me with more happiness than anywhere else in the world!'
+    text: 'When I’m at camp I’m so busy making friends, doing activities, singing on benches at shabbat, roasting marshmallows, and being a part of the countless other special things we do. When the 8 weeks are over and I have my first moment to reflect on the summer, I realize that all throughout each of those special days I was actually growing as a person and becoming a more genuine, thoughtful version of myself.'
   },
   {
     name: 'Henry Brown',
@@ -189,7 +190,7 @@ const testimonialsContentTemp = [
   },
   {
     name: 'Erin Bellucci',
-    text: 'Truly a magical place that fills me with more happiness than anywhere else in the world!'
+    text: 'When I’m at camp I’m so busy making friends, doing activities, singing on benches at shabbat, roasting marshmallows, and being a part of the countless other special things we do. When the 8 weeks are over and I have my first moment to reflect on the summer, I realize that all throughout each of those special days I was actually growing as a person and becoming a more genuine, thoughtful version of myself.'
   }
 ]
 

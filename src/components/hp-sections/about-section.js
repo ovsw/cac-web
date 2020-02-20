@@ -10,15 +10,17 @@ const SectionThreeColumns = () => {
   return (
     <section sx={{variant: 'sections.hpSectionLight'}}>
       <Container sx={{px: 0}}>
-        <Styled.h1 as='h2' sx={{textAlign: 'center'}}>Connecticut's Premier Jewish Summer Camp</Styled.h1>
+        <Styled.h1 as='h2' sx={{textAlign: 'center'}}>The Canadian Adventure Camp Experience</Styled.h1>
         <div sx={{variant: 'styles', mt: 5, px: 2, textAlign: 'center', maxWidth: '3xl', mx: 'auto'}}>
-          <p>We offer both Overnight and Day Camp <Link to='/programs/'>programs</Link>, lots of fun <Link to='/activities/'>activities</Link> and a warm welcoming community. </p>
+          <p>We need to decide what text goes in here. It's going to be really important. For now, since we don't have anything, this is just placeholder text. </p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut sagittis erat. Nulla vitae odio commodo nunc faucibus accumsan. Aenean sit amet ligula a ex tincidunt pharetra. </p>
+          <p>Donec erat ante, consectetur at ultricies in, consectetur at sapien. Integer varius scelerisque commodo. Aenean at ligula sit amet arcu suscipit consequat a eget purus. Fusce fermentum massa condimentum ligula hendrerit auctor. Cras sollicitudin iaculis metus vehicula iaculis.</p>
         </div>
-        <Flex sx={{mt: 5, flexWrap: 'wrap'}}>
+        {/* <Flex sx={{mt: 5, flexWrap: 'wrap'}}>
           {columnsContent.map(column => (
             <Box key={column.title} sx={{width: ['full', '1/2'], px: 3, display: 'flex'}}><Column {...column} /></Box>
           ))}
-        </Flex>
+        </Flex> */}
       </Container>
     </section >
   )

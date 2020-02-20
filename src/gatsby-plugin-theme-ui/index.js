@@ -84,13 +84,13 @@ export default {
     },
     'h1': {
       ...sharedHeadingStyles,
-      'fontSize': [6, 6, 7, 8],
+      'fontSize': [4, 4, 5],
       'mt': 2,
       'color': 'primary'
     },
     'h2': {
       ...sharedHeadingStyles,
-      fontFamily: 'heading2',
+      fontFamily: 'heading',
       fontWeight: 'normal',
       'fontSize': 6,
       'mt': 4,

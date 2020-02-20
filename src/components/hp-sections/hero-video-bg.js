@@ -12,7 +12,7 @@ class HeroVideoBg extends React.Component {
 
   render () {
     const videoOptions = {
-      src: 'https://lrw-ac97.kxcdn.com/laurelwood-med-res-bg-video.mp4',
+      src: 'https://lrw-ac97.kxcdn.com/temp1.mp4',
       autoPlay: true,
       loop: true,
       muted: true,

@@ -5,6 +5,8 @@ import {Flex} from '@theme-ui/components'
 import {Link, useStaticQuery, graphql} from 'gatsby'
 import Img from 'gatsby-image'
 
+import CacLogo from '../../images/canadian-adventure-camp-logo.png'
+
 // components
 import MobileMenu from './mobile-menu'
 import MegaMenu from './mega-menu'
@@ -12,9 +14,9 @@ import MegaMenu from './mega-menu'
 const MainNav = ({navStructure, showNav, onHideNav}) => {
   const {logoImage} = useStaticQuery(graphql`
   query{
-    logoImage: file(relativePath: { eq: "camp-laurelwood-logo.png" }) {
+    logoImage: file(relativePath: { eq: "canadian-adventure-camp-logo.png" }) {
       childImageSharp {
-        fixed(width: 119) {
+        fixed(width: 188) {
           ...GatsbyImageSharpFixed_noBase64
         }
       }
@@ -70,7 +72,7 @@ const MainNav = ({navStructure, showNav, onHideNav}) => {
           m: 0,
           pt: [3, 3, 1],
           pb: [4, 4, 1],
-          px: [0, 0, 0, 2, 3],
+          px: [0, 0, 0, '3rem', 5],
           display: ['block', 'block', 'flex'],
           justifyContent: 'space-around'
         }}>
@@ -93,9 +95,9 @@ const MainNav = ({navStructure, showNav, onHideNav}) => {
                       top: '-45px',
                       textAlign: 'center'
                     }}>
-                      <Img fixed={logoImage.childImageSharp.fixed} fadeIn={false} critical sx={{
-                        width: '120px', position: 'relative', top: '-12px'
-                      }} alt='Camp Laurelwood Logo' />
+                      <img src={CacLogo} sx={{
+                        width: '140px', position: 'relative', top: '-12px'
+                      }} alt='Canadian Adventure Camp Logo' />
                     </Link></li>
                   <MegaMenu menuTitle={mainMenuItem.title} mainLink={mainMenuItem.slug} menuColumns={mainMenuItem.children} key={mainMenuItem.slug} />
                 </React.Fragment>
