@@ -42,17 +42,17 @@ const Footer = () => {
         <Flex sx={{flexWrap: 'wrap', pt: [4, 4, 5, 6], pb: [3, 3, 3, 5]}}>
           <Box sx={{width: ['full', '1/2'], px: [0, 4], py: [4, 0], textAlign: ['center', 'right'], borderRight: ['none', '1px solid lightgray']}}>
             <div className='vcard'>
-              <div className='org'><Styled.h3 as='h3' sx={{mt: 0, color: 'light'}}>Camp Laurelwood</Styled.h3></div>
+              <div className='org'><Styled.h3 as='h3' sx={{mt: 0, color: 'light'}}>Canadian Adventure Camp</Styled.h3></div>
               <div className='tel'>
-                Call Now <a sx={{variant: 'links.footerLinks'}} href='tel:2034213736'>(203) 421-3736</a>
+                Call Now <a sx={{variant: 'links.footerLinks'}} href='tel:1-800-966-1406'>1 (800) 966-1406</a>
               </div>
-              <a className='email' sx={{variant: 'links.footerLinks'}} href='mailto:info@camplaurelwood.org'>info@camplaurelwood.org</a>
+              <a className='email' sx={{variant: 'links.footerLinks'}} href='mailto:info@canadianadventurecamp.com'>info@canadianadventurecamp.com</a>
               <div className='adr' sx={{mt: 4, color: 'gray.4'}}>
-                <div className='street-address'>463 Summer Hill Rd.</div>
-                <span className='locality'>Madison</span>,{' '}
-                <span className='region'>CT</span>2{' '}
-                <span className='postal-code'>06443</span>{' '}
-                <span className='country-name'>United States</span>
+                <div className='street-address'>15 Idleswift Drive</div>
+                <span className='locality'>Thornhill</span>,{' '}
+                <span className='region'>Ontario</span>2{' '}
+                <span className='postal-code'>L4J 1K9</span>{' '}
+                <span className='country-name'>Canada</span>
               </div>
 
             </div>
