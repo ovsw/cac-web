@@ -53,7 +53,7 @@ const IndexPage = props => {
       />
       <Hero />
       <About />
-      {/* <Programs /> */}
+      <Programs />
       {/* <Swim /> */}
       {/* <LocationGmap /> */}
       <Testimonials />

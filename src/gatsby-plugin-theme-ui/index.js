@@ -98,7 +98,7 @@ export default {
     },
     'h3': {
       ...sharedHeadingStyles,
-      'fontSize': [5, 5, 5, 6],
+      'fontSize': [3, 3, 3, 4],
       fontWeight: 'bold',
       'mt': 4,
       'color': 'primary'

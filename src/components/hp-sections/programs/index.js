@@ -6,9 +6,6 @@ import {Box, Flex} from '@theme-ui/components'
 
 // import {FaChevronRight} from 'react-icons/fa'
 
-import TrialSessions from './trial-sessions'
-import SpecialtyCamps from './specialty-camps'
-
 // containers
 import SectionWithSidebar from '../../../containers/section-with-sidebar'
 // commponents
@@ -17,14 +14,12 @@ import ProgramItem from './program'
 const Programs = () => {
   return (
     <>
-      <TrialSessions />
 
       <section sx={{variant: 'sections.hpSectionLight'}}>
-        <Container sx={{maxWidth: '7xl'}}><Styled.h2 sx={{mt: '0'}}>Laurelwood Main Programs:</Styled.h2></Container>
+        <Container sx={{maxWidth: '7xl'}}><Styled.h2 sx={{mt: '0'}}>CAC Specialty Programs:</Styled.h2></Container>
         <SectionWithSidebar sidebar={<Sidebar />} mainContent={<MainContent />} />
       </section>
 
-      <SpecialtyCamps />
     </>
   )
 }
@@ -53,30 +48,30 @@ const Sidebar = () => {
 
 const programs = [
   {
-    name: 'Overnight Camp',
-    age: '2nd-9th graders',
-    icon: 'moon',
+    name: 'Gymnastics Program',
+    subtitle: 'specialty program',
+    icon: 'sun',
     description: 'We need a description here for the Overnight Camp for 2nd to 9th graders, couldn\'t find anything on the old website',
     link: '/programs/overnight-camp/'
   },
   {
-    name: 'Day Camp',
-    age: 'K-7th graders',
-    icon: 'dayCamp',
+    name: 'Trampoline Program',
+    subtitle: 'specialty program',
+    icon: 'sun',
     description: 'Laurelwood Day Camp is run by Camp Laurelwood and is a great way for campers (K to 7th grade) to start their camping experience.',
     link: '/programs/day-camp/'
   },
   {
-    name: 'Bonim Travel',
-    age: '10th graders',
-    icon: 'teenagers',
+    name: 'Aerials (Silks & Hoops)',
+    subtitle: 'specialty program',
+    icon: 'sun',
     description: 'A recreational, educational and cultural experience for 10th graders, building character and social skills along with a strong Jewish identity.',
     link: '/programs/bonim-travel-program/'
   },
   {
-    name: 'SIT Program',
-    age: '11th graders',
-    icon: 'leader',
+    name: 'Waterski & Wakeboard',
+    subtitle: 'specialty program',
+    icon: 'sun',
     description: 'Provides rising 11th graders the tools and experience they need to become future leaders, strong role models  Camp Laurelwood staff.',
     link: '/programs/sit-program/'
   }

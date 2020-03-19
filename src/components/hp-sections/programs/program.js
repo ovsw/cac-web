@@ -6,16 +6,10 @@ import {Link} from 'gatsby'
 import Icon from '../../icon'
 
 const ProgramItem = ({name, icon = 'pineCone', iconSize = '4.7rem', description, link, layout = 'normal'}) => {
-  const flexDirection = layout === 'wide' ? 'row' : 'column'
-  const marginTop = layout === 'wide' ? '0' : 2
-  const marginBottom = layout === 'wide' ? '0' : 1
-  const marginBetween = layout === 'wide' ? 3 : '0'
-  const textAlign = layout === 'wide' ? 'left' : 'center'
-
   return (
     <Link to={link} sx={{
       variant: 'links.programListLink',
-      flexDirection: ['column', 'column', flexDirection],
+      flexDirection: ['column', 'column', 'column'],
       alignItems: 'center'
     }}>
 
@@ -42,8 +36,8 @@ const ProgramItem = ({name, icon = 'pineCone', iconSize = '4.7rem', description,
           </div>
         </div>}
 
-      <Styled.h3 sx={{mt: marginTop, mb: marginBottom, color: 'accent', fontWeight: 'bold', lineHeight: 'none'}}>{name}</Styled.h3>
-      <p sx={{fontSize: 1, lineHeight: '1.5', mt: marginTop, mb: marginBottom, ml: marginBetween, textAlign: textAlign}}>{description}</p>
+      <Styled.h3 sx={{mt: 2, mb: 1, color: 'accent', fontWeight: 'bold', lineHeight: 'none'}}>{name}</Styled.h3>
+      <p sx={{fontSize: 1, lineHeight: '1.5', mt: 2, mb: 1, ml: 0, textAlign: 'center'}}>{description}</p>
       {/* <p sx={{fontSize: 1, mt: 0}}><span sx={{color: 'primary'}}>... learn more ></span></p> */}
     </Link>
   )
