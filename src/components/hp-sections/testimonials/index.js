@@ -3,7 +3,7 @@ import React from 'react' // eslint-disable-line
 import {jsx, Styled, Container} from 'theme-ui'
 import {useStaticQuery, graphql} from 'gatsby'
 import Slider from 'react-slick'
-import BackgroundImage from 'gatsby-background-image'
+// import BackgroundImage from 'gatsby-background-image'
 
 import TestimonialItem from './testimonial-item'
 
@@ -51,7 +51,7 @@ const TestimonialsSection = () => {
   const {testimonialsBgImage} = useStaticQuery(
     graphql`
     query {
-      testimonialsBgImage: file(relativePath: { eq: "img-bg-2.png" }) {
+      testimonialsBgImage: file(relativePath: { eq: "swim-lessons.png" }) {
         childImageSharp {
           fluid(maxWidth: 1920) {
             ...GatsbyImageSharpFluid_noBase64
@@ -137,7 +137,8 @@ const TestimonialsSection = () => {
   }
   return (
     // REPLACE WITH BackgroundImage
-    <div tag='section' quality='90' fluid={testimonialsBgImage.childImageSharp.fluid}
+    <div tag='section' quality='90'
+    // fluid={testimonialsBgImage.childImageSharp.fluid}
       sx={{
         variant: 'sections.hpSection',
         py: [5, 5, 5, 6],

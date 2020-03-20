@@ -11,7 +11,7 @@ import PageHeaderImage from './page-header-image'
 
 function GenericPage ({_rawBody, title, section, headerImage = null}) {
   return (
-    <div sx={{marginTop: '5.35rem'}}>
+    <div>
 
       <PageHeaderImage headerImage={headerImage} />
 

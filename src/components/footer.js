@@ -13,7 +13,7 @@ const Footer = () => {
   const {footerBgImage, acaLogoImage} = useStaticQuery(
     graphql`
     query {
-      footerBgImage: file(relativePath: { eq: "cl_summer_2016_web_files-73.jpg" }) {
+      footerBgImage: file(relativePath: { eq: "swim-lessons.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 1024, quality: 80) {
             ...GatsbyImageSharpFluid_noBase64
@@ -31,7 +31,6 @@ const Footer = () => {
     `
   )
   return (
-    // REPLACE WITH BackgroundImage
     <div fadeIn={false} as='ThemeFooter' fluid={footerBgImage.childImageSharp.fluid} sx={{
       display: 'block',
       // background: `url('${FooterBg}') no-repeat top center`,

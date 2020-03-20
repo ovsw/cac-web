@@ -49,7 +49,7 @@ const PageSidebar = ({section}) => {
         </h4>
         <button sx={{
           display: ['inline-block', 'inline-block', 'none'],
-          bg: 'primaryHover',
+          bg: 'primaryDark',
           color: 'white',
           border: 'none',
           px: '1.5rem',

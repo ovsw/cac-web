@@ -1,15 +1,10 @@
-import React from 'react'
+/** @jsx jsx */
+import React from 'react' // eslint-disable-line
 
 import {Global} from '@emotion/core'
-import {Layout as ThemeLayout} from 'theme-ui'
-import Header from './header'
+import {jsx, Layout as ThemeLayout} from 'theme-ui'
+import Header from './header2'
 import Footer from './footer'
-
-// import 'typeface-dosis'
-// import 'typeface-amatic-sc'
-// import 'typeface-skranji'
-// import 'typeface-open-sans'
-// import 'typeface-lato'
 
 const Layout = ({children, onHideNav, onShowNav, showNav, siteTitle}) => (
   <ThemeLayout>
@@ -33,16 +28,18 @@ const Layout = ({children, onHideNav, onShowNav, showNav, siteTitle}) => (
           display: 'flex',
           height: 'auto'
         }
-      },
-      '.map': {
-        height: '900px',
-        zIndex: '1',
-        background: 'white !important'
       }
+      // '.map': {
+      //   height: '900px',
+      //   zIndex: '1',
+      //   background: 'white !important'
+      // }
     })} />
     <Header siteTitle={siteTitle} onHideNav={onHideNav} onShowNav={onShowNav} showNav={showNav} />
 
-    <>{children}</>
+    {/* top padding for content under header */}
+    <div sx={{pt: '6.8rem'}}
+    >{children}</div>
 
     <Footer />
   </ThemeLayout>

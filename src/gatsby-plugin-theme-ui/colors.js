@@ -7,7 +7,7 @@ const colors = {
     // 'primaryDarker': '#111',
     // 'primaryHover': '#999',
     // 'secondary': '#745325',
-    'secondary': '#2',
+    'secondary': '#683a0e',
     // 'accent': '#8b0a1f',
     'accent': '#3BA34C',
     'accentDark': '#037d40',
@@ -15,12 +15,12 @@ const colors = {
     'background': '#ebe6d6',
     'muted': '#8c8577',
     'light': '#f7fafc',
-    'dark': '#592203',
+    'dark': '#555',
     'grayDark': '#2d3748',
     'black': '#282828',
     // 'blue': '4E598C',
     // UI
-    'text': '#6c6b73',
+    'text': '#4d524c',
     'textMuted': '#9da2a0', // #8b8a90
     'white': '#fff',
     // 'success': '#9ae6b4', // green
